@@ -20,7 +20,10 @@ const config = {
     extend: {
       fontFamily:{
         "roboto":["Roboto", "sans-serif"],
-        "namdhinggo":["Namdhinggo", "serif"]
+        "namdhinggo":["Namdhinggo", "serif"]        
+      },
+      backgroundImage:{
+        "background":"url('/images/background.jpeg')"
       },
       colors: {
         border: "hsl(var(--border))",
